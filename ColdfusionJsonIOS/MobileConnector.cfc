@@ -20,7 +20,7 @@ component
 				status[arrayLen(status)]["Status"] = "Success";
 				status[arrayLen(status)]["Reason"] = "";
 				status[arrayLen(status)]["Code"] = "200";
-		/* Now we have an Object For Status We Add It To the To Any Array For Object Main Return*/
+		/* Now we have an Object For Status*/
 				mainReturn[arrayLen(mainReturn)]["Status"] = "#status#";
 			
 		/* Okay data yum fun stuff*/
@@ -34,7 +34,7 @@ component
 					result[arrayLen(result)]["name"] = "CPU";
 					result[arrayLen(result)]["price"] = "200";
 					result[arrayLen(result)]["brand"] = "Intel";
-			/* now we have to records for our result*/
+			/* now we have two records for our result*/
 			/* add the results to mainReturn*/
 					mainReturn[arrayLen(mainReturn) + 1] = {};
 					mainReturn[arrayLen(mainReturn)]["results"] = "#result#";
