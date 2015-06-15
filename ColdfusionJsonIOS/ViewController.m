@@ -6,7 +6,7 @@
 
 //
 
-//  Created by Intransit IT on 6/15/15.
+//  Created by Trojonomy on 6/15/15.
 
 //  Copyright (c) 2015 Trojonomy. All rights reserved.
 
