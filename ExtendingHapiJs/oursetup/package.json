@@ -1,0 +1,17 @@
+{
+  "name": "hapijs",
+  "version": "1.0.0",
+  "description": "test app",
+  "main": "index.js",
+  "dependencies": {
+    "good": "^6.2.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "grr"
+  },
+  "author": "",
+  "license": "ISC"
+}
