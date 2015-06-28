@@ -1,10 +1,10 @@
 var Hapi = require('hapi');
 var Good = require('good');
-var Path = require('path');
 
 
 var server = new Hapi.Server();
 server.connection({ port: 3000 });
+
 server.views({
     engines: {
         html: require('handlebars')

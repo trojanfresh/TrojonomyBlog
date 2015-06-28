@@ -18,15 +18,14 @@ server.views({
 });
 
 
-server.route({
-    method: 'GET',
-    path: '/',
-    handler: function (request, reply) {
-        reply.view('home',{somevar:'Hi'});
-    }
+//require('./routes/routes.js')(server);
+
+var fs=require("fs");
+var routePath="./routes/"; //location of our routes
+fs.readdirSync(routePath).forEach(function(file) {
+    var route=routePath+file; //append routes/ to each js file.
+    require(route)(server);//now require it.
 });
-
-
 
 
 server.register({
